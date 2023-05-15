@@ -1,0 +1,14 @@
+h1{
+    color: chocolate;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px 20px 30px 40px;;
+}
+
+h1:hover{
+    color: green;
+}

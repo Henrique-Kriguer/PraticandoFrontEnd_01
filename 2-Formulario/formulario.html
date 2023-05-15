@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <section>
+          <h1>Kriguer ELETRÔNICOS</h1>
+       
+        </section>
+      </nav>
+      <main>
+        <section>
+          <h3>Cadastro</h3>
+          <div>
+            <form action="./obrigado.html">
+              <div>
+                <label for="ctrl-name">Nome</label>
+                <input
+                  id="ctrl-name"
+                  name="name"
+                  type="text"
+                  placeholder="Digite seu nome"
+                />
+              </div>
+
+              <div>
+                <label for="ctrl-email">E-mail</label>
+                <input
+                  id="ctrl-email"
+                  name="email"
+                  type="email"
+                  placeholder="Digite seu e-mail"
+                />
+              </div>
+
+              <div>
+                <label for="ctrl-password">Senha</label>
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  placeholder="Digite sua senha"
+                />
+              </div>
+              <div>
+                <label for="ctrl-city">Cidade</label>
+                <select name="city" id="ctrl-city">
+                  <option value="1">São Paulo</option>
+                  <option value="2">Rio de Janeiro</option>
+                  <option value="3">Curitiba</option>
+                  <option value="4">Belo Horizonte</option>
+                </select>
+              </div>
+              <div>
+                <label for="ctrl-level">Escolaridade</label>
+                <input type="radio" name="level" id="ctrl-level-1" />
+                <label for="ctrl-level-1">Fundamental</label>
+                <input type="radio" name="level" id="ctrl-level-2" />
+                <label for="ctrl-level-2">Médio</label>
+                <input type="radio" name="level" id="ctrl-level-3" />
+                <label for="ctrl-level-3">Superior</label>
+                <input type="radio" name="level" id="ctrl-level-4" />
+                <label for="ctrl-level-4">Pós-graduação</label>
+              </div>
+              <div>
+                <label for="ctrl-service">Escolha um ou mais serviços:</label>
+                <div id="ctrl-service">
+                  <div>
+                    <input id="ctrl-service" name="service-1" type="checkbox" />
+                    <label for="service-1">Análise de curriculum</label>
+                  </div>
+                  <div>
+                    <input id="ctrl-service" name="service-2" type="checkbox" />
+                    <label for="service-2">Análise Linkedin</label>
+                  </div>
+                  <div>
+                    <input id="ctrl-service" name="service-3" type="checkbox" />
+                    <label for="service-3">Preparação p/ entrevistas</label>
+                  </div>
+                </div>
+              </div>
+              <input type="submit" value="Enviar" />
+              <input type="reset" />
+            </form>
+          </div>
+        </section>
+      </main>
+    </header>
+  </body>
+</html>
