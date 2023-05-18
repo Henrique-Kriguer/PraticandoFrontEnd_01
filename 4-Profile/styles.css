@@ -1,26 +1,132 @@
-
-
 * {
     box-sizing: border-box;
 }
-html,body {
+
+html,
+body {
     margin: 0%;
     padding: 0%;
     font-family: Urbanist, sans-serif;
 }
-.nav-container{
+
+.nav-container {
     background-color: #122262;
+    max-width: 960px;
     height: 100px;
     width: 100%;
+    padding: 20px;
+    position: fixed;
 }
-.nav-main{
+
+.nav-main {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.nav-main a{
+
+.nav-main a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
+
+}
+
+.nav-brand {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.menu-items {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-items li {
+    margin: 15px 10px 10px 10px;
+    font-size: 1rem;
+}
+
+.profile-container {
+    background-color: #ABA9B3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 0 60px 0;
+}
+
+.profile-img {
+    /* width: 150px;
+    height: 150px;*/
+    margin: 20px 20px 40px 20px;
+
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.profile-description {
+    font-size: 1rem;
+}
+
+main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0;
+    padding: 0;
+
+}
+
+#portifolio {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #767A86;
+}
+
+.portifolio-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.portifolio-container {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.portifolio-item {
+    width: calc(100%-40px);
+    max-width: 420px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px;
+}
+footer{
+    height: 120px;
+    background-color: #122262;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    margin: 20px;
+}
+.footer-msg{
+    text-align: center;
+    color:#fff;
+    margin: 0;
+
 }
