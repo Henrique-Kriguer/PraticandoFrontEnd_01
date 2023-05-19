@@ -11,7 +11,7 @@ body {
 
 .nav-container {
     background-color: #122262;
-    max-width: 960px;
+    
     height: 100px;
     width: 100%;
     padding: 20px;
@@ -20,7 +20,7 @@ body {
 
 .nav-main {
     width: 100%;
-    max-width: 960px;
+    
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@ body {
 }
 
 .nav-brand {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -79,7 +79,7 @@ body {
 
 main {
     width: 100%;
-    max-width: 960px;
+   
     margin: 0;
     padding: 0;
 
@@ -87,8 +87,9 @@ main {
 
 #portifolio {
     width: 100%;
-    max-width: 960px;
+    
     margin: 0 auto;
+    padding: 30px 0 0 0;
     background-color: #767A86;
 }
 
@@ -97,11 +98,11 @@ main {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    margin: 0;
+    margin: 0 0 10px 0;
 }
 
 .portifolio-container {
-   
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -115,18 +116,43 @@ main {
     border-radius: 10px;
     margin: 20px;
 }
-footer{
+
+footer {
     height: 120px;
+    padding: 0;
     background-color: #122262;
     display: flex;
     justify-content: center;
 }
-footer img{
-    margin: 20px;
-}
-.footer-msg{
-    text-align: center;
-    color:#fff;
-    margin: 0;
 
+footer h2 {
+    margin: 10px 0;
+}
+
+footer img {
+    margin: 0 10px 0 10px;
+    padding: 0 0 0 1px;
+}
+
+.footer-msg {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+@media 
+    (min-width: 576px ) {
+    html {
+        font-size: 20px;
+    }
+}
+@media 
+    (min-width: 768px ) {
+    html {
+        font-size: 24px;
+    }
+    .nav-container{
+        padding: 10px;
+        flex-direction: row;
+    }
 }
