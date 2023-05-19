@@ -110,7 +110,7 @@ main {
 }
 
 .portifolio-item {
-    width: calc(100%-40px);
+    width:400px ;
     max-width: 420px;
     cursor: pointer;
     border-radius: 10px;
